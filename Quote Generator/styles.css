@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#99b898,#feceab,#e84a5f,#2a363b);
+    height: 100vh;
+        
+}
+.container {
+	width: 550px;
+	height: 450px;
+}
+.header {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.header h2 {
+    font-weight: 400;
+    color: #312b2b;
+}
+.main-content {
+	width: 100%;
+	height: 300px;
+	padding: 50px 40px;
+	background-color: #85144b;
+	border-radius: 15px;
+	box-shadow: 0 25px 31px 0 rgba(0,0,0,0.5);
+}
+
+.text-area {
+	text-align: center;
+	font-size: 25px;
+	color: #ffffff;
+	line-height: 1.5;
+    
+}
+.text-area .icon {
+    margin-right: 5px;
+}
+.main-content .writer {
+    text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #ffdc00;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 25px;
+	
+}
+.main-content .button-area {
+	display: grid;
+	place-items: center;
+	margin-top: 20px;
+	padding: 10px 0;
+}
+.button-area .btn button {
+    background-color: #262626;
+    color: #2ecc40;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+
+    
+}
+.btn button:hover{
+    background-color: black;
+}
+.button-area button:active {
+    background-color: rgb(52, 67, 68);
+}
